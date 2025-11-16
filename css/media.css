@@ -36,11 +36,11 @@
     display: block;
   }
 
-  .service__row{
+  .service__row {
     flex-wrap: wrap;
   }
-  
-  .service__col{
+
+  .service__col {
     width: 50%;
   }
 }
@@ -64,20 +64,29 @@
     font-size: 16px;
   }
 
-  .contact .container{
+  .contact .container {
     flex-direction: column;
     align-items: flex-start;
-  } 
+  }
 }
 
 @media (max-width: 590px) {
-  .service__col{
+  .service__col {
     width: 100%;
     padding: 25px 0;
   }
 
   .contact__one ul li,
-  .contact__two ul li{
+  .contact__two ul li {
     font-size: 14px;
+  }
+}
+
+@media (max-width: 768px) {
+  .info__left img,
+  .hero__right img {
+    max-width: 100%;
+    height: auto;
+    display: block;
   }
 }
